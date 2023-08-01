@@ -15,13 +15,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script rel="preload" as="script" src="anim.js"></script>
     <link rel="shortcut icon" href="images/plopes.ico" />
     <title>Resume</title>
   </head>
 
-  <body class="w3-light-grey" cz-shortcut-listen="true">
+  <body style="background-color: var(--Page)" cz-shortcut-listen="true">
     <div class="changer">
-      <i class="fa fa-moon fa-fw"></i>
+      <a class="themeChanger" onClick="changeTheme()"
+        ><i class="fa fa-moon fa-fw"></i
+      ></a>
     </div>
     <!-- Left Column -->
     <div class="w3-content w3-margin-top" style="max-width: 1400px">

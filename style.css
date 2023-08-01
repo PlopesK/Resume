@@ -1,3 +1,10 @@
+:root {
+  --Page: rgb(228, 228, 228);
+  --Dark: darkslategray;
+  --Link: white;
+  --Text: black;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,10 +15,12 @@
 
 p {
   text-align: justify;
+  color: var(--Text);
 }
 
 footer p {
   text-align: center;
+  color: white;
 }
 
 a:hover {
@@ -20,8 +29,8 @@ a:hover {
 
 .changer {
   border-radius: 100%;
-  background-color: darkslategray;
-  color: white;
+  background-color: var(--Dark);
+  color: var(--Link);
   position: fixed;
   top: 3%;
   right: 3%;
@@ -30,6 +39,7 @@ a:hover {
   height: 5%;
   font-size: 1.5em;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .typing-demo {
