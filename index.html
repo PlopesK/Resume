@@ -1,11 +1,17 @@
 <!DOCTYPE html>
+<!-- @falvojr: Reference article https://www.w3schools.com/howto/howto_website_create_resume.asp -->
+<!-- @falvojr: Useful link to use fontawesome (fa) icons: https://fontawesome.com/v4/icons/ -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, minimum-scale=1.00, maximum-scale=1.50"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -14,135 +20,191 @@
     <link rel="shortcut icon" href="images/plopes.ico" />
     <title>Resume</title>
   </head>
-  <body class="c--0a95a8 avatar--no">
-    <div class="sidebar">
-      <div class="sidebar--shadow"></div>
-      <div class="sidebar--shadow-overlay"></div>
-      <aside class="sidebar-components">
-        <div class="avatar__bg">
-          <h1>Gabriel Primo Misiara Costa</h1>
-        </div>
 
-        <div class="sidebar--data">
-          <h2 class="sidebar--title">Personal</h2>
-
-          <ul class="sidebar--list">
-            <li class="sidebar--item sidebar--item-personal">
-              <p><i class="fa fa-home"></i></p>
-              <span class="sidebar--label">Address</span><br />
-              São Paulo, Brazil <br />
-              Taubaté
-            </li>
-
-            <li class="sidebar--item sidebar--item-personal">
-              <p><i class="fa fa-envelope"></i></p>
-              <span class="sidebar--label">Email</span><br />
-              gpcomercial04@gmail.com
-            </li>
-
-            <li class="sidebar--item sidebar--item-personal">
-              <p><i class="fab fa-github"></i></p>
-              <span class="sidebar--label">GitHub</span><br />
-              PlopesK - https://github.com/PlopesK
-            </li>
-          </ul>
-        </div>
-        <div class="sidebar--data">
-          <h2 class="sidebar--title">Interests</h2>
-
-          <ul class="sidebar--list">
-            <li class="sidebar--item sidebar--item-text sidebar--item-interest">
-              <i class="sidebar--icon-square"></i>
-              Drawing
-            </li>
-            <li class="sidebar--item sidebar--item-text sidebar--item-interest">
-              <i class="sidebar--icon-square"></i>
-              Learning new things
-            </li>
-            <li class="sidebar--item sidebar--item-text sidebar--item-interest">
-              <i class="sidebar--icon-square"></i>
-              Playing games
-            </li>
-          </ul>
-        </div>
-
-        <div class="sidebar--data">
-          <h2 class="sidebar--title">Languages</h2>
-
-          <ul class="sidebar--list">
-            <li class="sidebar--item">
-              <span class="sidebar--label">English</span>
-              <span class="sidebar--item-align-right">
-                <ul class="skills__list">
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item"></li>
-                </ul>
-              </span>
-            </li>
-            <li class="sidebar--item">
-              <span class="sidebar--label">Spanish</span>
-              <span class="sidebar--item-align-right">
-                <ul class="skills__list">
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item"></li>
-                  <li class="skills__item"></li>
-                </ul>
-              </span>
-            </li>
-            <li class="sidebar--item">
-              <span class="sidebar--label">Portuguese</span>
-              <span class="sidebar--item-align-right">
-                <ul class="skills__list">
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                  <li class="skills__item active"></li>
-                </ul>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </aside>
-    </div>
-
-    <section class="sections">
-      <div class="section section--summary">
-        <div class="section--content">
-          <p>
-            My name is Gabriel Primo, I have 18 years old and live in Taubaté, a
-            city inside the state of São Paulo in Brazil. Capable to speak both
-            English and Portuguese, I'm a web developer trained in systems
-            analysis and development. My objective is to improve my habilities
-            and learn new things.
-          </p>
-          <p>
-            I have an curious and creative mind. My main trait is that I'm a
-            fast leaner.
-          </p>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="section--title">
-          <h2>Work experience</h2>
-        </div>
-
-        <ol class="section--list">
-          <li class="section--item">
-            <div class="section--heading-group">
-              <div class="section--date">Dec 2022 - Currently</div>
-              <div class="section--heading">
-                <h3>Developer and Artist</h3>
-              </div>
-              <div class="section--sub-heading">Astral Sphere, Brazil</div>
+  <body class="w3-light-grey" cz-shortcut-listen="true">
+    <!-- Left Column -->
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-container">
+              <h2>Gabriel Primo Misiara Costa</h2>
             </div>
-            <div class="section--content">
+            <div class="w3-container">
+              <p>
+                <i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >Front-End Developer
+              </p>
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >Taubaté-SP, Brazil
+              </p>
+              <p>
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >gpcomercial04@gmail.com
+              </p>
+              <p>
+                <i
+                  class="fab fa-github fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >PlopesK - https://github.com/PlopesK
+              </p>
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p>HTML</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 100%"
+                >
+                  100%
+                </div>
+              </div>
+
+              <p>CSS</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 100%"
+                >
+                  100%
+                </div>
+              </div>
+
+              <p>JS</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 85%"
+                >
+                  85%
+                </div>
+              </div>
+
+              <p>Angular</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <p>SQL</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <p>PHP</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+              <br />
+
+              <p>C#</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 50%"
+                >
+                  50%
+                </div>
+              </div>
+              <br />
+
+              <p class="w3-large w3-text-theme">
+                <b
+                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
+                  >Languages</b
+                >
+              </p>
+
+              <p>Portuguese</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 100%"
+                ></div>
+              </div>
+
+              <p>English</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 85%"
+                ></div>
+              </div>
+              <br />
+            </div>
+          </div>
+          <br />
+          <!-- End Left Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >About
+            </h2>
+            <p>
+              My name is Gabriel Primo, I have 18 years old and live in Taubaté,
+              a city inside the state of São Paulo in Brazil. Capable to speak
+              both English and Portuguese, I'm a web developer trained in
+              systems analysis and development. My objective is to improve my
+              habilities and learn new things.
+            </p>
+            <p>
+              I have an curious and creative mind. My main trait is that I'm a
+              fast leaner.
+            </p>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16 w3-animate-right">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Work Experience
+            </h2>
+            <!-- First -->
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Developer and Artist</b></h5>
+              <h5 class="w3-large w3-hover-opacity">
+                <b>Astral Sphere, Brazil</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2022 -
+                <span class="w3-tag w3-teal w3-round">Current</span>
+              </h6>
               <p>
                 Astral Sphere is a indie team creating a mobile game named as
                 Astral Adventure, utilizing the Unity Engine, the game wasn't
@@ -150,222 +212,98 @@
                 functions to the game, fixing bugs, etc; and as an artist,
                 creating level designs, animations, concept arts and pixel arts.
               </p>
+              <hr />
             </div>
-          </li>
-        </ol>
-      </div>
 
-      <div class="section">
-        <div class="section--title">
-          <h2>Education and Qualifications</h2>
-        </div>
-
-        <ol class="section--list">
-          <li class="section--item">
-            <div class="section--heading-group">
-              <div class="section--date">Jan 2020 - Dec 2022</div>
-              <div class="section--heading">
-                <h3>
-                  Technical High School <br />
-                  Analysis and Systems Development
-                </h3>
-              </div>
-              <div class="section--sub-heading">
-                Etec Dr. Geraldo José Rodrigues Alckmin, Analysis and Systems
-                Development
-              </div>
-            </div>
-            <div class="section--content">
+            <!-- Second-->
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Team Manager</b></h5>
+              <h5 class="w3-large w3-hover-opacity">
+                <b>Anemo System, Brazil</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2022 -
+                <span class="w3-tag w3-teal w3-round">Dec - 2022</span>
+              </h6>
               <p>
-                High School with an integrated Course about Analysis and Systems
-                Development.
+                Anemo System was a big project created by me and other friends.
+                The objective of this team was to turn Educating and Managing
+                schools more fun and productive for everyone. I worked as a team
+                leader, I created the website and instructed everyone what
+                should be done. We used the Kanban method to mark objectives and
+                deadlines. I created most of the pixel arts and animations in
+                both Site and Game.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Education
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Technical High School</b></h5>
+              <h5 class="w3-large w3-hover-opacity">
+                <b>Analysis and Systems Development</b>
+              </h5>
+              <h5 class="w3-medium w3-hover-opacity">
+                <u>Etec Dr. Geraldo José Rodrigues Alckmin</u>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 -
+                <span class="w3-tag w3-teal w3-round">2022</span>
+              </h6>
+              <p>
+                One of the best educational systems in Brazil. High School with
+                an integrated Course about Analysis and Systems Development.
               </p>
               <p>
                 We learned many development languages and processes. Some
-                learned skills were: HTML, SQL, CSS, JS, Java and PHP
+                learned skills were: HTML, SQL, CSS, JS, Java and PHP. And most
+                important: we learned how to team work and respect deadlines.
               </p>
+              <hr />
             </div>
-          </li>
-
-          <li class="section--item">
-            <div class="section--heading-group">
-              <div class="section--date">Sep 2018 - Nov 2019</div>
-              <div class="section--heading">
-                <h3>Course</h3>
-              </div>
-              <div class="section--sub-heading">People, Game Development</div>
-            </div>
-            <div class="section--content">
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>People 20</b></h5>
+              <h5 class="w3-large w3-hover-opacity">
+                <b>Game Development Course</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 -
+                <span class="w3-tag w3-teal w3-round">2019</span>
+              </h6>
               <p>
                 An Improvement Course where I learned how to create Games in
                 Unity, Unreal and Construct.
               </p>
               <p>
                 We where taught from the creation of the idea till the
-                development of it.
+                development of it, using mainly C# language.
               </p>
+              <hr />
             </div>
-          </li>
-        </ol>
-      </div>
-
-      <div class="section">
-        <div class="section--title">
-          <h2>Skills</h2>
+          </div>
+          <!-- End Right Column -->
         </div>
 
-        <ol class="section--list skills">
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>HTML</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>CSS</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>JS</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>PHP</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>SQL</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>Java</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>C#</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>Python</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>Git</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="section--item skills">
-            <div class="skills--label">
-              <h3>Design</h3>
-            </div>
-            <div class="skills--stars">
-              <ul class="skills__list">
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item active"></li>
-                <li class="skills__item"></li>
-              </ul>
-            </div>
-          </li>
-        </ol>
+        <!-- End Grid -->
       </div>
-    </section>
+
+      <!-- End Page Container -->
+    </div>
+
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
