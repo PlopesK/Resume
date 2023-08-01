@@ -1,5 +1,6 @@
 :root {
   --Page: rgb(228, 228, 228);
+  --Section: white;
   --Dark: darkslategray;
   --Link: white;
   --Text: black;
@@ -23,6 +24,15 @@ footer p {
   color: white;
 }
 
+.section {
+  background-color: var(--Section);
+}
+
+.title {
+  color: var(--Text);
+  opacity: 0.7;
+}
+
 a:hover {
   color: lightseagreen;
 }
@@ -40,6 +50,11 @@ a:hover {
   font-size: 1.5em;
   cursor: pointer;
   z-index: 1000;
+}
+
+.changer a:hover {
+  opacity: 0.7;
+  color: var(--Link);
 }
 
 .typing-demo {

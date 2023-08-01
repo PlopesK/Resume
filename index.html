@@ -23,14 +23,14 @@
   <body style="background-color: var(--Page)" cz-shortcut-listen="true">
     <div class="changer">
       <a class="themeChanger" onClick="changeTheme()"
-        ><i class="fa fa-moon fa-fw"></i
+        ><i id="icon" class="fa fa-moon fa-fw"></i
       ></a>
     </div>
     <!-- Left Column -->
     <div class="w3-content w3-margin-top" style="max-width: 1400px">
       <div class="w3-row-padding">
         <div class="w3-third">
-          <div class="w3-white w3-text-grey w3-card-4">
+          <div class="section title w3-card-4">
             <!-- Title -->
             <div class="w3-container w3-hover-text-teal">
               <div class="typing-demo">
@@ -228,49 +228,45 @@
             </div>
           </div>
           <br />
-          <!-- End Left Column -->
-          <div class="w3-container w3-card w3-white">
+
+          <div class="w3-container title w3-card-4 section">
             <!-- Title -->
-            <h2
-              class="w3-text-grey w3-padding-16 w3-animate-right w3-hover-text-teal"
-            >
+            <h2 class="title w3-padding-16 w3-animate-right w3-hover-text-teal">
               <i
                 class="fa fa-paint-brush fa-fw w3-margin-right w3-xxlarge w3-text-teal"
               ></i
               >Best Projects
-              <h4 class="w3-opacity"><b>Sonic R</b></h4>
-              <p>
-                Sonic R (or Sonic Runner if you preffer) is a browser game
-                created by me using only HTML, CSS and Vanilla JS. The game was
-                intended to be fun mainly to those that are fan of the
-                franchise.
-              </p>
-              <p>
-                Since I was having a lot of fun coding the project, one of my
-                main touches was the amount of references or small funny things
-                around the page. And of course, I tried to make it the most
-                responsive possible (with even settings to phones that were slow
-                while playing the game).
-              </p>
-              <p>
-                I'm pretty proud with the result :) <br />
-                You can acess the project
-                <a href="https://plopesk.github.io/Sonic-R/">Here</a>
-              </p>
-              <hr />
             </h2>
-
-            <div class="w3-container"></div>
+            <h4 class="w3-opacity">
+              <p><b>Sonic R</b></p>
+            </h4>
+            <p>
+              Sonic R (or Sonic Runner if you preffer) is a browser game created
+              by me using only HTML, CSS and Vanilla JS. The game was intended
+              to be fun mainly to those that are fan of the franchise.
+            </p>
+            <p>
+              Since I was having a lot of fun coding the project, one of my main
+              touches was the amount of references or small funny things around
+              the page. And of course, I tried to make it the most responsive
+              possible (with even settings to phones that were slow while
+              playing the game).
+            </p>
+            <p>
+              I'm pretty proud with the result :) <br />
+              You can acess the project
+              <a href="https://plopesk.github.io/Sonic-R/">Here</a>
+            </p>
+            <hr />
           </div>
+          <!-- End Left Column -->
         </div>
 
         <!-- Right Column -->
         <div class="w3-twothird">
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <div class="w3-container w3-card section w3-margin-bottom">
             <!-- Title -->
-            <h2
-              class="w3-text-grey w3-padding-16 w3-animate-right w3-hover-text-teal"
-            >
+            <h2 class="title w3-padding-16 w3-animate-right w3-hover-text-teal">
               <i
                 class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"
               ></i
@@ -287,13 +283,12 @@
               I have a curious and creative mind. My main trait is that I'm a
               fast learner.
             </p>
+            <hr />
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <div class="w3-container w3-card section w3-margin-bottom">
             <!-- Title -->
-            <h2
-              class="w3-text-grey w3-padding-16 w3-animate-right w3-hover-text-teal"
-            >
+            <h2 class="title w3-padding-16 w3-animate-right w3-hover-text-teal">
               <i
                 class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
               ></i
@@ -301,9 +296,11 @@
             </h2>
             <!-- First -->
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Developer and Artist</b></h5>
+              <h5 class="w3-opacity">
+                <p><b>Developer and Artist</b></p>
+              </h5>
               <h5 class="w3-large w3-hover-opacity">
-                <b>Astral Sphere, Brazil</b>
+                <p><b>Astral Sphere, Brazil</b></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2022 -
@@ -321,9 +318,11 @@
 
             <!-- Second-->
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Team Manager</b></h5>
+              <h5 class="w3-opacity">
+                <p><b>Team Manager</b></p>
+              </h5>
               <h5 class="w3-large w3-hover-opacity">
-                <b>Anemo System, Brazil</b>
+                <p><b>Anemo System, Brazil</b></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2022 -
@@ -348,23 +347,23 @@
             </div>
           </div>
 
-          <div class="w3-container w3-card w3-white">
+          <div class="w3-container w3-card section">
             <!-- Title -->
-            <h2
-              class="w3-text-grey w3-padding-16 w3-animate-right w3-hover-text-teal"
-            >
+            <h2 class="title w3-padding-16 w3-animate-right w3-hover-text-teal">
               <i
                 class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"
               ></i
               >Education
             </h2>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Technical High School</b></h5>
+              <h5 class="w3-opacity">
+                <p><b>Technical High School</b></p>
+              </h5>
               <h5 class="w3-large w3-hover-opacity">
-                <b>Analysis and Systems Development</b>
+                <p><b>Analysis and Systems Development</b></p>
               </h5>
               <h5 class="w3-medium w3-hover-opacity">
-                <u>Etec Dr. Geraldo José Rodrigues Alckmin</u>
+                <p><u>Etec Dr. Geraldo José Rodrigues Alckmin</u></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 -
@@ -385,12 +384,14 @@
             </div>
 
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Technical Course</b></h5>
+              <h5 class="w3-opacity">
+                <p><b>Technical Course</b></p>
+              </h5>
               <h5 class="w3-large w3-hover-opacity">
-                <b>Game Development Course</b>
+                <p><b>Game Development Course</b></p>
               </h5>
               <h5 class="w3-medium w3-hover-opacity">
-                <u>People 20</u>
+                <p><u>People 20</u></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 -
@@ -408,12 +409,14 @@
             </div>
 
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Courses</b></h5>
+              <h5 class="w3-opacity">
+                <p><b>Courses</b></p>
+              </h5>
               <h5 class="w3-large w3-hover-opacity">
-                <b>JavaScript Developer</b>
+                <p><b>JavaScript Developer</b></p>
               </h5>
               <h5 class="w3-medium w3-hover-opacity">
-                <u>Trybe</u>
+                <p><u>Trybe</u></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>
@@ -427,10 +430,10 @@
               <hr />
 
               <h5 class="w3-large w3-hover-opacity">
-                <b>JavaScript Developer</b>
+                <p><b>JavaScript Developer</b></p>
               </h5>
               <h5 class="w3-medium w3-hover-opacity">
-                <u>FreeCodeCamp</u>
+                <p><u>FreeCodeCamp</u></p>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>2023 -
