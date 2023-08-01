@@ -4,6 +4,7 @@
   --Dark: darkslategray;
   --Link: white;
   --Text: black;
+  --Footer: darkcyan;
 }
 
 * {
@@ -17,6 +18,10 @@
 p {
   text-align: justify;
   color: var(--Text);
+}
+
+footer {
+  background-color: var(--Footer);
 }
 
 footer p {
