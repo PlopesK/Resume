@@ -10,6 +10,14 @@ p {
   text-align: justify;
 }
 
+footer p {
+  text-align: center;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
 .typing-demo {
   width: 100%;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
