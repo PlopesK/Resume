@@ -4,6 +4,8 @@
   ],
   "hints": {
     "meta-viewport": "off",
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off"
   }
 }
