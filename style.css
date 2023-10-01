@@ -21,6 +21,11 @@ p {
   font-size: 14px;
 }
 
+.subtitle {
+  color: var(--Text);
+  font-weight: bold;
+}
+
 footer {
   background-color: var(--Footer);
 }
